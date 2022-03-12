@@ -10,7 +10,7 @@ Let's say you've made a discord bot on visual studio code but want it on 100% of
 3. Log on to <a href = "https://id.heroku.com/login">Heroku</a> and create a new app 
 4. Go to Settings --> Add Buildpack --> Add Python (Or whatever language you are using)
 5. Go to Deploy --> Connect with Github --> Choose the branch that you put your main.py code in
-6. Deploy the branch --> Go to Resources --> Edit & turn on worker python main.py (refresh if needed)
+6. Deploy the branch --> Go to Resources --> Edit & turn on Worker python main.py (refresh if needed)
 7. Give Heroku around a minute and see your results
 
 **Note: You have the option to use a config var (think of a .env file) to hide your API keys**
