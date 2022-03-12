@@ -1,6 +1,9 @@
 # Variables --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-discordToken = "OTUyMDk2MjgyNzc0NzYxNTAy.YixCwg.vAiRV5CPTdr1WwsaezaQ126ehdw";
+from dotenv import load_dotenv
+load_dotenv
+import os
+discordToken = os.getenv("discordToken")
 
 import nextcord
 from nextcord import Interaction
