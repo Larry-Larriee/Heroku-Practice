@@ -6,7 +6,7 @@ Let's say you've made a discord bot on visual studio code but want it on 100% of
  
 **Instructions:**
 
-1. Create a requrements.txt for your repository and add `git+https://github.com/nextcord/nextcord` 
+1. Create a requirements.txt for your repository and add `git+https://github.com/nextcord/nextcord` (whatever github library you're using) 
 2. Create a Procfile.txt for your repo and add `Logs: python main.py` (make sure filename = main.py)
 3. Log on to https://id.heroku.com/login and create a new app 
 4. Go to Settings --> Add Buildpack --> Add Python (Or whatever language you are using)
@@ -14,10 +14,15 @@ Let's say you've made a discord bot on visual studio code but want it on 100% of
 6. Deploy the branch --> Go to Resources --> Edit & turn on worker python main.py (refresh if needed)
 7. Give Heroku around a minute and see your results
 
-**Other Method (Harder one in my opinion):** 
+**Note: You have the option to use a config var (think of a .env file) to hide your API keys**
 
-https://www.youtube.com/watch?v=BPvg9bndP1U&t=406s
+1. Go to Settings --> Config Vars --> Create a {key} to call and the api key {value}
+2. In your main.py file add `import os` and `token = os.getenv('your_key')`. Call this variable wherever needed
+3. Make sure to redeploy your branch so that heroku runs the updated code
 
-**Documentation:**
+<hr>
 
-https://devcenter.heroku.com/articles/how-heroku-works
+**Documentation & Other Method (Harder one in my opinion):**
+
+- https://devcenter.heroku.com/articles/how-heroku-works
+- https://www.youtube.com/watch?v=BPvg9bndP1U&t=406s
