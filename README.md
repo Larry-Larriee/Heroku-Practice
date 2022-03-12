@@ -1,4 +1,6 @@
 # Heroku Practice
- Please Work :)))
+ 
+**Instructions:**
 
- HERRRRRROOOKUUUUUUUUUUUU man. Please let me use your generous cloud server.
+`1. Create a requirements.txt for your repository`
+`2. Add git+https://github.com/nextcord/nextcord in to the text`
