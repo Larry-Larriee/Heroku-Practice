@@ -1,9 +1,9 @@
 # Variables --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 from dotenv import load_dotenv
-load_dotenv()
 import os
-discordToken = os.getenv("disToken")
+load_dotenv('.env')
+discordToken = os.getenv('TOKEN')
 
 import nextcord
 from nextcord import Interaction

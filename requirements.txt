@@ -1,1 +1,2 @@
 git+https://github.com/nextcord/nextcord
+git+https://github.com/motdotla/dotenv
