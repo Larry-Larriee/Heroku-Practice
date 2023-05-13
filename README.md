@@ -25,3 +25,7 @@ Let's say you've made a discord bot on visual studio code but want it on 100% of
 
 - https://devcenter.heroku.com/articles/how-heroku-works
 - https://www.youtube.com/watch?v=BPvg9bndP1U&t=406s
+
+**Important Notice**
+
+Please note that as of 2023, Discord has required a rule pertaining to discord bots called "gateway intents." For more information on gateway intents, see https://www.pythondiscord.com/pages/tags/intents/ 
